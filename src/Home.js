@@ -1,3 +1,5 @@
+/* eslint-disable react/jsx-no-comment-textnodes */
+/* eslint-disable jsx-a11y/alt-text*/ 
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import 'animate.css';
@@ -22,7 +24,7 @@ const Home = () => {
           <HashLink to="/#Contact"><button>Let's Talk</button></HashLink>
         </Col>
         <Col md={5} sm={12} className="img animate__animated animate__backInRight"animation-duration="50s" danimate-delay="25s">
-          <img src="image/landing-image.jpg"></img>
+          <img src="image/landing-image.jpg"/>
         </Col>
       </Row>
     </Container>
